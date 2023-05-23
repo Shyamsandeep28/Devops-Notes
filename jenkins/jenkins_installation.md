@@ -1,6 +1,6 @@
 
-**document created by Sandeep kumar Sharma**
-# Install Jenkins on AWS EC2 for dockeer and Maven Project******************************
+# document created by Sandeep kumar Sharma
+# Install Jenkins on AWS EC2 for dockeer and Maven Project
      1  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
      2 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
     3 sudo yum upgrade
