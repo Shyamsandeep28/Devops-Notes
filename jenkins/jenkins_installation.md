@@ -9,11 +9,11 @@
     7  sudo yum install jenkins -y
     8  sudo systemctl enable jenkins
     9   sudo systemctl start jenkins
-   10  sudo systemctl status jenkins
-   11  vi /usr/lib/systemd/system/jenkins.service
-   12.  systemctl restart jenkins
-   12   systemctl daemon-reload
-   13   sudo systemctl start jenkins
+    10  sudo systemctl status jenkins
+    11  vi /usr/lib/systemd/system/jenkins.service
+    12.  systemctl restart jenkins
+    12   systemctl daemon-reload
+    13   sudo systemctl start jenkins
    
 
 
