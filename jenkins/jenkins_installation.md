@@ -1,3 +1,25 @@
+
+************************************document created by Sandeep kumar Sharma****************************
+# Install Jenkins on AWS EC2 for dockeer and Maven Project******************************
+   1  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    2  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    3  sudo yum upgrade
+    4  sudo amazon-linux-extras install java-openjdk11 -y
+    6  sudo yum  install java-11-amazon-corretto -y
+    7  sudo yum install jenkins -y
+    8  sudo systemctl enable jenkins
+    9   sudo systemctl start jenkins
+   10  sudo systemctl status jenkins
+   11  vi /usr/lib/systemd/system/jenkins.service
+   12.  systemctl restart jenkins
+   12   systemctl daemon-reload
+   13   sudo systemctl start jenkins
+   
+   ************************************************************************************************************************************
+
+
+
+
 # Install Jenkins on AWS EC2
 Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Mac OS X and other Unix-like operating systems. As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.
 
@@ -61,4 +83,6 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 1. Save your job 
 1. Build job
 1. Check "console output"
+
+
 
